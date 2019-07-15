@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Draw</title>
+    <link rel="stylesheet" type="text/css" href="draw.css">
+  </head>
+  <body>
+
+    <div class = "top_bar" style = "position: absolute; left: 700px; background-color: purple; width: 1150px;" >
+      <button id="save-btn">Save</button>
+      <button id="undo-btn"><img src ="https://cdn2.iconfinder.com/data/icons/arrows-vol-1-1/32/undo-512.png" style = "width: 20px; height: 20px;"></button>
+      <button id="clear-btn">Clear</button>
+      <button id="pencil-btn"><img src = "https://cdn3.iconfinder.com/data/icons/line/36/pencil-512.png" style = "width: 20px; height: 20px;"></button>
+      <input type="color" id="color-picker" style = "width: 60px; height: 40px;">
+      <input type="range" id="brush-size" min="1" max="100" value="10">
+      <button id="eraser-btn"><img src = "https://png.pngtree.com/svg/20161221/c56f838d9c.svg" style = "width: 20px; height: 20px;"></button>
+      <button id="rect-btn">Rectangle1</button>
+      <button id="rect-filled-btn">Rectangle2</button>
+      <button id="circle-btn">Circle1</button>
+      <button id="circle-filled-btn">Circle2</button>
+    </div>
+
+    <canvas id = "draw"></canvas>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="draw.js"></script>
+  </body>
+</html>
